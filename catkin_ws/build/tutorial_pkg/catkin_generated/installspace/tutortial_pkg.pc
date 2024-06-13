@@ -1,0 +1,8 @@
+prefix=/home/abhishek/github/ros/catkin_ws/install
+
+Name: tutortial_pkg
+Description: Description of tutortial_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
