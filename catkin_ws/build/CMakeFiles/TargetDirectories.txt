@@ -35,14 +35,6 @@
 /home/abhishek/github/ros/catkin_ws/build/gtest/googletest/CMakeFiles/test.dir
 /home/abhishek/github/ros/catkin_ws/build/gtest/googletest/CMakeFiles/gtest_main.dir
 /home/abhishek/github/ros/catkin_ws/build/gtest/googletest/CMakeFiles/gtest.dir
-/home/abhishek/github/ros/catkin_ws/build/gazebo_worlds/CMakeFiles/install/strip.dir
-/home/abhishek/github/ros/catkin_ws/build/gazebo_worlds/CMakeFiles/install/local.dir
-/home/abhishek/github/ros/catkin_ws/build/gazebo_worlds/CMakeFiles/install.dir
-/home/abhishek/github/ros/catkin_ws/build/gazebo_worlds/CMakeFiles/list_install_components.dir
-/home/abhishek/github/ros/catkin_ws/build/gazebo_worlds/CMakeFiles/rebuild_cache.dir
-/home/abhishek/github/ros/catkin_ws/build/gazebo_worlds/CMakeFiles/edit_cache.dir
-/home/abhishek/github/ros/catkin_ws/build/gazebo_worlds/CMakeFiles/test.dir
-/home/abhishek/github/ros/catkin_ws/build/gazebo_worlds/CMakeFiles/_catkin_empty_exported_target.dir
 /home/abhishek/github/ros/catkin_ws/build/navigation/CMakeFiles/install/strip.dir
 /home/abhishek/github/ros/catkin_ws/build/navigation/CMakeFiles/install.dir
 /home/abhishek/github/ros/catkin_ws/build/navigation/CMakeFiles/list_install_components.dir

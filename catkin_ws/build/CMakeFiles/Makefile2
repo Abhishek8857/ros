@@ -54,7 +54,6 @@ CMAKE_BINARY_DIR = /home/abhishek/github/ros/catkin_ws/build
 
 # The main recursive "all" target.
 all: gtest/all
-all: gazebo_worlds/all
 all: navigation/all
 all: detection/all
 all: tutorial_pkg/all
@@ -64,7 +63,6 @@ all: wanderbot/all
 
 # The main recursive "preinstall" target.
 preinstall: gtest/preinstall
-preinstall: gazebo_worlds/preinstall
 preinstall: navigation/preinstall
 preinstall: detection/preinstall
 preinstall: tutorial_pkg/preinstall
@@ -79,7 +77,6 @@ clean: CMakeFiles/clean_test_results.dir/clean
 clean: CMakeFiles/tests.dir/clean
 clean: CMakeFiles/download_extra_data.dir/clean
 clean: gtest/clean
-clean: gazebo_worlds/clean
 clean: navigation/clean
 clean: detection/clean
 clean: tutorial_pkg/clean
@@ -108,24 +105,6 @@ detection/clean: detection/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clea
 detection/clean: detection/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
 
 .PHONY : detection/clean
-
-#=============================================================================
-# Directory level rules for directory gazebo_worlds
-
-# Recursive "all" directory target.
-gazebo_worlds/all:
-
-.PHONY : gazebo_worlds/all
-
-# Recursive "preinstall" directory target.
-gazebo_worlds/preinstall:
-
-.PHONY : gazebo_worlds/preinstall
-
-# Recursive "clean" directory target.
-gazebo_worlds/clean: gazebo_worlds/CMakeFiles/_catkin_empty_exported_target.dir/clean
-
-.PHONY : gazebo_worlds/clean
 
 #=============================================================================
 # Directory level rules for directory gtest
@@ -514,33 +493,6 @@ gtest: gtest/googletest/CMakeFiles/gtest.dir/rule
 gtest/googletest/CMakeFiles/gtest.dir/clean:
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/clean
 .PHONY : gtest/googletest/CMakeFiles/gtest.dir/clean
-
-#=============================================================================
-# Target rules for target gazebo_worlds/CMakeFiles/_catkin_empty_exported_target.dir
-
-# All Build rule for target.
-gazebo_worlds/CMakeFiles/_catkin_empty_exported_target.dir/all:
-	$(MAKE) -f gazebo_worlds/CMakeFiles/_catkin_empty_exported_target.dir/build.make gazebo_worlds/CMakeFiles/_catkin_empty_exported_target.dir/depend
-	$(MAKE) -f gazebo_worlds/CMakeFiles/_catkin_empty_exported_target.dir/build.make gazebo_worlds/CMakeFiles/_catkin_empty_exported_target.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/abhishek/github/ros/catkin_ws/build/CMakeFiles --progress-num= "Built target _catkin_empty_exported_target"
-.PHONY : gazebo_worlds/CMakeFiles/_catkin_empty_exported_target.dir/all
-
-# Build rule for subdir invocation for target.
-gazebo_worlds/CMakeFiles/_catkin_empty_exported_target.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/github/ros/catkin_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 gazebo_worlds/CMakeFiles/_catkin_empty_exported_target.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhishek/github/ros/catkin_ws/build/CMakeFiles 0
-.PHONY : gazebo_worlds/CMakeFiles/_catkin_empty_exported_target.dir/rule
-
-# Convenience name for target.
-_catkin_empty_exported_target: gazebo_worlds/CMakeFiles/_catkin_empty_exported_target.dir/rule
-
-.PHONY : _catkin_empty_exported_target
-
-# clean rule for target.
-gazebo_worlds/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	$(MAKE) -f gazebo_worlds/CMakeFiles/_catkin_empty_exported_target.dir/build.make gazebo_worlds/CMakeFiles/_catkin_empty_exported_target.dir/clean
-.PHONY : gazebo_worlds/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 #=============================================================================
 # Target rules for target navigation/CMakeFiles/rosgraph_msgs_generate_messages_py.dir
