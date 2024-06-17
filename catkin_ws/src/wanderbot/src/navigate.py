@@ -28,7 +28,7 @@ def odom_callback(msg):
     
 def stop_robot():
     twist = Twist()
-    twist.linear.x = 0.4
+    twist.linear.x = 0.6
     while twist.linear.x > 0.0:
         twist.linear.x -= 0.005
         if twist.linear.x < 0.0:

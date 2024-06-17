@@ -1,2 +1,2 @@
-follow:navigation:tutorial_pkg:wanderbot
+detection:gazebo_worlds:navigation:tutorial_pkg:wanderbot
 -DCATKIN_DEVEL_PREFIX=/home/abhishek/github/ros/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/abhishek/github/ros/catkin_ws/install -G Unix Makefiles
