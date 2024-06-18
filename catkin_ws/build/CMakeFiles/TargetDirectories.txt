@@ -84,6 +84,13 @@
 /home/abhishek/github/ros/catkin_ws/build/detection/CMakeFiles/sensor_msgs_generate_messages_lisp.dir
 /home/abhishek/github/ros/catkin_ws/build/detection/CMakeFiles/sensor_msgs_generate_messages_eus.dir
 /home/abhishek/github/ros/catkin_ws/build/detection/CMakeFiles/sensor_msgs_generate_messages_cpp.dir
+/home/abhishek/github/ros/catkin_ws/build/gazebo_worlds/CMakeFiles/install/strip.dir
+/home/abhishek/github/ros/catkin_ws/build/gazebo_worlds/CMakeFiles/install/local.dir
+/home/abhishek/github/ros/catkin_ws/build/gazebo_worlds/CMakeFiles/install.dir
+/home/abhishek/github/ros/catkin_ws/build/gazebo_worlds/CMakeFiles/list_install_components.dir
+/home/abhishek/github/ros/catkin_ws/build/gazebo_worlds/CMakeFiles/rebuild_cache.dir
+/home/abhishek/github/ros/catkin_ws/build/gazebo_worlds/CMakeFiles/edit_cache.dir
+/home/abhishek/github/ros/catkin_ws/build/gazebo_worlds/CMakeFiles/test.dir
 /home/abhishek/github/ros/catkin_ws/build/tutorial_pkg/CMakeFiles/install/strip.dir
 /home/abhishek/github/ros/catkin_ws/build/tutorial_pkg/CMakeFiles/install/local.dir
 /home/abhishek/github/ros/catkin_ws/build/tutorial_pkg/CMakeFiles/install.dir

@@ -56,6 +56,7 @@ CMAKE_BINARY_DIR = /home/abhishek/github/ros/catkin_ws/build
 all: gtest/all
 all: navigation/all
 all: detection/all
+all: gazebo_worlds/all
 all: tutorial_pkg/all
 all: wanderbot/all
 
@@ -65,6 +66,7 @@ all: wanderbot/all
 preinstall: gtest/preinstall
 preinstall: navigation/preinstall
 preinstall: detection/preinstall
+preinstall: gazebo_worlds/preinstall
 preinstall: tutorial_pkg/preinstall
 preinstall: wanderbot/preinstall
 
@@ -79,6 +81,7 @@ clean: CMakeFiles/download_extra_data.dir/clean
 clean: gtest/clean
 clean: navigation/clean
 clean: detection/clean
+clean: gazebo_worlds/clean
 clean: tutorial_pkg/clean
 clean: wanderbot/clean
 
@@ -105,6 +108,24 @@ detection/clean: detection/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clea
 detection/clean: detection/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
 
 .PHONY : detection/clean
+
+#=============================================================================
+# Directory level rules for directory gazebo_worlds
+
+# Recursive "all" directory target.
+gazebo_worlds/all:
+
+.PHONY : gazebo_worlds/all
+
+# Recursive "preinstall" directory target.
+gazebo_worlds/preinstall:
+
+.PHONY : gazebo_worlds/preinstall
+
+# Recursive "clean" directory target.
+gazebo_worlds/clean:
+
+.PHONY : gazebo_worlds/clean
 
 #=============================================================================
 # Directory level rules for directory gtest
