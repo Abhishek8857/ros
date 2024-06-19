@@ -545,6 +545,12 @@ wanderbot_BINARY_DIR:STATIC=/home/abhishek/github/ros/catkin_ws/build/wanderbot
 //Value Computed by CMake
 wanderbot_SOURCE_DIR:STATIC=/home/abhishek/github/ros/catkin_ws/src/wanderbot
 
+//Value Computed by CMake
+worlds_BINARY_DIR:STATIC=/home/abhishek/github/ros/catkin_ws/build/worlds
+
+//Value Computed by CMake
+worlds_SOURCE_DIR:STATIC=/home/abhishek/github/ros/catkin_ws/src/worlds
+
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/noetic/share/xmlrpcpp/cmake
 

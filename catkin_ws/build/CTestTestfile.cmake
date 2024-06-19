@@ -7,6 +7,6 @@
 subdirs("gtest")
 subdirs("navigation")
 subdirs("detection")
-subdirs("gazebo_worlds")
 subdirs("tutorial_pkg")
 subdirs("wanderbot")
+subdirs("worlds")
