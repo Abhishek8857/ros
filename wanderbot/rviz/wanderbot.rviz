@@ -1,0 +1,49 @@
+Panels:
+  - Class: rviz/Displays
+    Name: Displays
+  - Class: rviz/Views
+    Name: Views
+    PropertyTree:
+      Expanded:
+        - /Type
+        - /All
+        - /Current View
+    Views:
+      Current: 
+        Type: Orbit (rviz)
+        Near Clip Distance: 0.01
+        Invert Z Axis: false
+        Target Frame: base_footprint
+        Distance: 2.0
+        Field of View: 1.0
+        Focal Point: 0; 0; 0
+        Pitch: 0.785398
+        Yaw: 0.785398
+        Focal Shape Size: 0.05
+        View Angle: 1.0472
+Displays:
+  - Class: rviz/Grid
+    Name: Grid
+  - Class: rviz/RobotModel
+    Name: RobotModel
+  - Class: rviz/LaserScan
+    Name: LaserScan
+    Topic: /scan
+    Queue Size: 10
+    Size (m): 0.1
+    Style: Points
+    Color: 255; 255; 0
+    Alpha: 1.0
+    Min Intensity: 0.0
+  - Class: rviz/TF
+    Name: TF
+    Show Axes: true
+    Show Arrows: true
+  - Class: rviz/Path
+    Name: Path
+    Topic: /move_base/NavfnROS/plan
+    Color: 0; 0; 255
+    Alpha: 1.0
+    Buffer Length: 10
+    Pose Axis: XYZ
+    Topic: /move_base/TrajectoryPlannerROS/global_plan
