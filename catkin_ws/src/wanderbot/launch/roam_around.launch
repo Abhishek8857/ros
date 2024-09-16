@@ -1,4 +1,0 @@
-<launch>
-    <node name="roam_around" pkg="wanderbot" type="roam_around.py" output="screen"/>
-    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find wanderbot)/rviz/wanderbot.rviz"/>
-</launch>
